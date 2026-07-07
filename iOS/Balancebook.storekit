@@ -1,0 +1,40 @@
+{
+  "identifier" : "BalancebookProducts",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "balancebook_pro_group",
+      "localizations" : [],
+      "name" : "Balancebook Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "com.shimondeitel.balancebook.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Balancebook Pro - Multi-partner balances and settlement history",
+              "displayName" : "Balancebook Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.balancebook.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Balancebook Pro Monthly",
+          "subscriptionGroupID" : "balancebook_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
